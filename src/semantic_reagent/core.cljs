@@ -22,7 +22,7 @@
 (def Container (r/adapt-react-class (.-Container semantic-ui)))
 
 ;; Divider
-(def Divider (r/adapt-react-class (.-Container semantic-ui)))
+(def Divider (r/adapt-react-class (.-Divider semantic-ui)))
 
 ;; Flag
 (def Flag (r/adapt-react-class (.-Flag semantic-ui)))
