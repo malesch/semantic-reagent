@@ -9,11 +9,15 @@ is required.
 
 The dev mode is started with
 
-```boot dev```
+```
+boot dev
+```
 
  and Devcards are then accessible under
 
- ```http://localhost:3000```
+```
+http://localhost:3000
+```
 
 ## License
 
