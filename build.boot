@@ -1,6 +1,5 @@
 (set-env!
  :source-paths    #{"src"}
- :resource-paths  #{"resources"}
  :dependencies '[[cljsjs/semantic-ui-react      "0.64.0-0"]
                  ;;
                  [org.clojure/clojurescript     "1.9.293"   :scope "provided"]
@@ -43,7 +42,8 @@
         (push-release :repo "clojars" :tag true)))
 
 (deftask dev []
-  (set-env! :source-paths #(conj % "dev"))
+  (set-env! :source-paths #(conj % "dev")
+            :resource-paths #{"resources"})
   (comp
     (serve)
     (watch)

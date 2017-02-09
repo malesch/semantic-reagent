@@ -4,7 +4,7 @@ A Clojure library for using [Semantic UI React](http://react.semantic-ui.com) wi
 
 ## Usage
 
-Usage examples of the UI components can be found in the Devcards when starting up in the development mode. For building [Boot](https://github.com/boot-clj/boot)
+Usage examples of the UI components can be found in the Devcards when starting up in dev mode. For building [Boot](https://github.com/boot-clj/boot)
 is required.
 
 The dev mode is started with
