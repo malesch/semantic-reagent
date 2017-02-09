@@ -23,7 +23,7 @@
                  [c/Image {:floated true :size :mini :src "http://semantic-ui.com/images/avatar/large/steve.jpg"}]
                  [c/CardHeader "Steve Sanders"]
                  [c/CardMeta "Friends of Elliot"]
-                 [c/CardDescription "Steve wants to add you to the group" [:strong "best friends"]]]
+                 [c/CardDescription "Steve wants to add you to the group " [:strong "best friends"]]]
                 [c/CardContent {:extra true}
                  [:div {:class-name "ui two buttons"}
                   [c/Button {:basic true :color :green} "Approve"]
@@ -33,7 +33,7 @@
                  [c/Image {:floated true :size :mini :src "http://semantic-ui.com/images/avatar2/large/molly.png"}]
                  [c/CardHeader "Molly Thomas"]
                  [c/CardMeta "New User"]
-                 [c/CardDescription " Molly wants to add you to the group" [:strong "musicians"]]]
+                 [c/CardDescription " Molly wants to add you to the group " [:strong "musicians"]]]
                 [c/CardContent {:extra true}
                  [:div {:class-name "ui two buttons"}
                   [c/Button {:basic true :color :green} "Approve"]
