@@ -1,0 +1,9 @@
+^{:watch-dirs ["src" "dev"]
+  :mode :serve}
+{:main semantic-reagent-cards.core
+ :optimizations :none
+ :warnings true
+ :output-wrapper true
+ :source-map true
+ :closure-defines {cljs.user/DEBUG true}
+ :devcards true}

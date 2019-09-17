@@ -279,4 +279,3 @@
 
 ;; TextArea
 (def TextArea (r/adapt-react-class (.-TextArea semantic-ui)))
-

@@ -1,4 +1,0 @@
-{:require  [semantic-reagent-cards.core]
- :init-fns [semantic-reagent-cards.core/init]
- :compiler-options {:devcards true
-                    :asset-path "dev.out"}}
