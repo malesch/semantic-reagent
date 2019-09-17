@@ -8,7 +8,6 @@
             [semantic-reagent-cards.addons]))
 
 (defn ^:after-load init []
-  (js/console.log "foo")
   (dc/start-devcard-ui!))
 
 (init)
