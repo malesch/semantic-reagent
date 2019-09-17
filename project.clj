@@ -5,13 +5,13 @@
                         ["snapshots" :clojars]]
   :clean-targets ^{:protect false} ["target"]
   :dependencies [[org.clojure/clojure "1.10.0"]
-                 [cljsjs/semantic-ui-react "0.64.0-0"]]
+                 [cljsjs/semantic-ui-react "0.88.1-0"]]
   :profiles {:provided {:dependencies [[org.clojure/clojurescript "1.10.520"]
-                                       [reagent "0.6.0"]]}
+                                       [reagent "0.9.0-rc1"]]}
              :dev {:source-paths ["dev"]
                    :resource-paths ["target"]
                    :dependencies [[nrepl/nrepl "0.6.0"]
                                   [cider/piggieback "0.4.1"]
                                   [com.bhauman/figwheel-main "0.2.3"]
-                                  [devcards "0.2.2"]]
+                                  [devcards "0.2.6"]]
                    :repl-options {:nrepl-middleware [cider.piggieback/wrap-cljs-repl]}}})
