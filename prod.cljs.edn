@@ -1,0 +1,10 @@
+^{:watch-dirs ["src" "dev"]
+  :mode :serve}
+{:main semantic-reagent-cards.core
+ :optimizations :advanced
+ :warnings true
+ :output-wrapper true
+ :closure-defines {cljs.user/DEBUG true}
+ :devcards true
+ :output-dir "target/public/js/out"
+ :output-to "target/public/js/main.js"}

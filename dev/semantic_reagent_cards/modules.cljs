@@ -48,7 +48,7 @@
                 [:div.examples
                  [:div.ex
                   [:span.title "Simple Dimmer"]
-                  [c/DimmerDimmable {:as c/jsSegment :dimmed=@state}
+                  [c/DimmerDimmable {:as c/jsSegment :dimmed @state}
                    [c/Dimmer {:active @state :on-click-outside #(reset! state false)}]
                    [c/Header {:as :h3} "Overlayable Section"]
                    [c/ImageGroup {:size :small :class-name "ui small images"}

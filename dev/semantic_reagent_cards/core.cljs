@@ -1,16 +1,13 @@
-(ns semantic-reagent-cards.core
+(ns ^:figwheel-hooks semantic-reagent-cards.core
   (:require [devcards.core :as dc :include-macros true]
-            [reagent.core :as r :refer [atom]]
-            [semantic-reagent.core :as c]
+            [semantic-reagent.core]
             [semantic-reagent-cards.elements]
             [semantic-reagent-cards.collections]
             [semantic-reagent-cards.views]
             [semantic-reagent-cards.modules]
-            [semantic-reagent-cards.addons])
-  (:require-macros [devcards.core :refer [defcard-rg]]))
+            [semantic-reagent-cards.addons]))
 
-(enable-console-print!)
+(defn ^:after-load init []
+  (dc/start-devcard-ui!))
 
-(defn init []
-      (dc/start-devcard-ui!))
-
+(init)
