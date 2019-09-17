@@ -42,6 +42,4 @@
                [c/TextArea {:placeholder "Tell us more"}]]]
              [:div.ex
               [c/Form
-               [c/TextArea {:placeholder "Try adding multiple lines" :auto-height true}]]]])
-
-
+               [c/TextArea {:placeholder "Try adding multiple lines" :rows 3}]]]])

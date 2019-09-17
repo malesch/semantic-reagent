@@ -406,11 +406,10 @@
                 [c/StepContent {:title "Billing" :description "Enter billing information"}]]
                [c/Step {:disabled true :icon "info" :title "Confirm order"}]]
               [:br]
-              [c/StepGroup {:items [{:icon "truck" :title "Shhipping" :description "Choose your shipping options"}
-                                    {:active true :icon "payment" :title "Billing" :description "Enter billing information"}
-                                    {:disabled true :icon "info" :title "Confirm Order"}]}]]
+              [c/StepGroup {:items [{:key 1 :icon "truck" :title "Shhipping" :description "Choose your shipping options"}
+                                    {:key 2 :active true :icon "payment" :title "Billing" :description "Enter billing information"}
+                                    {:key 3 :disabled true :icon "info" :title "Confirm Order"}]}]]
              [:div.ex
-              [c/StepGroup {:vertical true :items [{:completed true :icon "truck" :title "Shipping" :description "Choose your shipping options"}
-                                                   {:completed true :icon "credit card" :title "Billing" :description "Enter billing information"}
-                                                   {:active true :icon "info" :title "Confirm Order" :description "Verify order details"}]}]]])
-
+              [c/StepGroup {:vertical true :items [{:key 1 :completed true :icon "truck" :title "Shipping" :description "Choose your shipping options"}
+                                                   {:key 2 :completed true :icon "credit card" :title "Billing" :description "Enter billing information"}
+                                                   {:key 3 :active true :icon "info" :title "Confirm Order" :description "Verify order details"}]}]]])
