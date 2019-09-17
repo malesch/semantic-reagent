@@ -1,5 +1,7 @@
-(defproject malesch/semantic-reagent "1.0.1-SNAPSHOT"
+(defproject malesch/semantic-reagent "1.0.1"
   :description "Library for using Semantic UI React components with Reagent"
+  :license {:name "Eclipse Public License"
+            :url "http://www.eclipse.org/legal/epl-v10.html"}
   :url "https://github.com/malesch/semantic-reagent"
   :deploy-repositories [["releases" {:url "https://repo.clojars.org" :creds :gpg}]
                         ["snapshots" :clojars]]
