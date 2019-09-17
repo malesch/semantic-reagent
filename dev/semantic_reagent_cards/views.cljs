@@ -20,7 +20,7 @@
               [c/CardGroup
                [c/Card
                 [c/CardContent
-                 [c/Image {:floated true :size :mini :src "http://semantic-ui.com/images/avatar/large/steve.jpg"}]
+                 [c/Image {:floated :left :size :mini :src "http://semantic-ui.com/images/avatar/large/steve.jpg"}]
                  [c/CardHeader "Steve Sanders"]
                  [c/CardMeta "Friends of Elliot"]
                  [c/CardDescription "Steve wants to add you to the group " [:strong "best friends"]]]
@@ -30,7 +30,7 @@
                   [c/Button {:basic true :color :red} "Decline"]]]]
                [c/Card
                 [c/CardContent
-                 [c/Image {:floated true :size :mini :src "http://semantic-ui.com/images/avatar2/large/molly.png"}]
+                 [c/Image {:floated :left :size :mini :src "http://semantic-ui.com/images/avatar2/large/molly.png"}]
                  [c/CardHeader "Molly Thomas"]
                  [c/CardMeta "New User"]
                  [c/CardDescription " Molly wants to add you to the group " [:strong "musicians"]]]
@@ -40,7 +40,7 @@
                   [c/Button {:basic true :color :red} "Decline"]]]]
                [c/Card
                 [c/CardContent
-                 [c/Image {:floated true :size :mini :src "http://semantic-ui.com/images/avatar/large/jenny.jpg"}]
+                 [c/Image {:floated :left :size :mini :src "http://semantic-ui.com/images/avatar/large/jenny.jpg"}]
                  [c/CardHeader "Jenny Lawrence"]
                  [c/CardMeta "New User"]
                  [c/CardDescription "Jenny requested permission to view your contact details"]]
