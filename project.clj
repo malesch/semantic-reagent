@@ -15,5 +15,6 @@
                    :dependencies [[nrepl/nrepl "0.6.0"]
                                   [cider/piggieback "0.4.1"]
                                   [com.bhauman/figwheel-main "0.2.3"]
-                                  [devcards "0.2.6"]]
+                                  [devcards "0.2.6"]
+                                  [camel-snake-kebab "0.4.0"]]
                    :repl-options {:nrepl-middleware [cider.piggieback/wrap-cljs-repl]}}})
