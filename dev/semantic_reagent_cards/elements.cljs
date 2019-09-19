@@ -413,3 +413,16 @@
               [c/StepGroup {:vertical true :items [{:key 1 :completed true :icon "truck" :title "Shipping" :description "Choose your shipping options"}
                                                    {:key 2 :completed true :icon "credit card" :title "Billing" :description "Enter billing information"}
                                                    {:key 3 :active true :icon "info" :title "Confirm Order" :description "Verify order details"}]}]]])
+
+(defcard-rg Placeholder
+            [:div.examples
+             [:div.ex
+              [c/Placeholder
+               [c/PlaceholderHeader {:image true}
+                [c/PlaceholderLine]
+                [c/PlaceholderLine]]
+               [c/PlaceholderParagraph
+                [c/PlaceholderLine]
+                [c/PlaceholderLine]
+                [c/PlaceholderLine]
+                [c/PlaceholderLine]]]]])
